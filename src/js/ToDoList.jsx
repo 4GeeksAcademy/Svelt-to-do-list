@@ -19,7 +19,7 @@ const handlekeyPress = (e)=> {
 
 const handleDeleteItem = (index) => {
     const newToDoItems = [...toDoItems];
-    new ToDoItems.splice(idenx, 1);
+    newToDoItems.splice(index, 1);
     setToDoItems(newToDoItems);
 };
 
